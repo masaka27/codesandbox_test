@@ -4,6 +4,7 @@ const onClickAdd = () => {
   // テキストボックスの値を取得し初期化する
   const inputText = document.getElementById("add-text").value;
   document.getElementById("add-text").value = "";
+  console.log(inputText);
 
   // div生成
   const div = document.createElement("div");
